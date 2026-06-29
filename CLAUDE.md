@@ -10,7 +10,11 @@ There is **no build system, package manager, or test suite** in this repo — no
 
 ## Target device sync
 
-This repo is synced with a copy of the same repo on the i.MX device at `root@192.168.1.27:/root/gopoint-app`. Any change made in this repo should be synced over to the device copy so the two stay in step.
+This repo is synced with a copy of the same repo on the i.MX device at `root@192.168.1.27:/root/gopoint-apps`. Any change made in this repo should be synced over to the device copy so the two stay in step. The device has no `rsync`; use `scp` (SSH key auth works non-interactively).
+
+## Installing packages on the target
+
+The board can be missing Python packages a demo needs (e.g. `scipy`). You **may install Python packages on the target when necessary** to make a demo run — prefer the system package manager, else `pip`. Keep new runtime dependencies minimal and documented in the demo's README, and note that a clean board may need the same install.
 
 ## Architecture
 

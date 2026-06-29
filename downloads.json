@@ -151,7 +151,6 @@
       "sha": "5bd04c4c9df4a7d03bba0234fc04646d799b7d34"
     }
   ],
-
   "background.jpg": [
     {
       "name": "background.jpg",
@@ -279,8 +278,7 @@
       "alt_url": "",
       "sha": "9bf4e3f155d34ce2f624c864c9cf64c04ff9a06c"
     }
-  ]
-  ,
+  ],
   "mobilenet_v1_1.0_224_quant_uint8_float32.tflite": [
     {
       "name": "mobilenet_v1_1.0_224_quant_uint8_float32.tflite",
@@ -439,6 +437,30 @@
       "url": "https://github.com/nxp-imx-support/nxp-demo-experience-assets/raw/lf-6.18.2_1.0.0/images/small_dog.jpg",
       "alt_url": "",
       "sha": "d7d6273747a74b70ffbc455fda74e1a29b29b201"
+    }
+  ],
+  "yolov8s_640_neutron.tflite": [
+    {
+      "name": "yolov8s_640_neutron.tflite",
+      "url": "https://github.com/ducduong-dev/gopoint-apps/raw/main/downloads/yolov8s_640_neutron.tflite",
+      "alt_url": "",
+      "sha": "058a52662242f8f587205b1ef14d4abe91157467"
+    }
+  ],
+  "yolov8s_640_int8.tflite": [
+    {
+      "name": "yolov8s_640_int8.tflite",
+      "url": "https://github.com/ducduong-dev/gopoint-apps/raw/main/downloads/yolov8s_640_int8.tflite",
+      "alt_url": "",
+      "sha": "0f7f4648cb1eb6562376d899ac5d87cb4afd4424"
+    }
+  ],
+  "coco80_labels.txt": [
+    {
+      "name": "coco80_labels.txt",
+      "url": "https://github.com/ducduong-dev/gopoint-apps/raw/main/downloads/coco80_labels.txt",
+      "alt_url": "",
+      "sha": "d3176cc4f8db4d3542fdfc4600da5c685ca618f4"
     }
   ]
 }
