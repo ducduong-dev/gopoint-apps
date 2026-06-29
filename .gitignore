@@ -1,0 +1,41 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Runtime-fetched assets (downloaded on first run, never committed — see CLAUDE.md)
+# Large model/media binaries land in downloads/; keep label/text files tracked.
+downloads/*.tflite
+downloads/*.nb
+downloads/*.bin
+downloads/*.onnx
+downloads/*.pb
+downloads/*.zip
+downloads/*.tar
+downloads/*.tar.gz
+downloads/*.tgz
+downloads/*.mp4
+downloads/*.mov
+downloads/*.wav
+downloads/*.jpg
+downloads/*.jpeg
+downloads/*.png
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS cruft
+.DS_Store
+Thumbs.db
