@@ -1,0 +1,11 @@
+person
+shoe
+no-shoe
+vest
+no-vest
+helmet
+no-helmet
+glove
+no-glove
+harness
+hook
